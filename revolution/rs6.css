@@ -36,7 +36,6 @@ rs-sbg-px { pointer-events: none }
 	top:0px !important;
 	left:0px !important;
 	z-index:9999999 !important;
-	background:#ffffff;
 }
 .rtl {	direction: rtl;}
 @font-face {
@@ -52,7 +51,7 @@ rs-sbg-px { pointer-events: none }
 }
 
  [class^="revicon-"]:before, [class*=" revicon-"]:before {
-  font-family: "revicons";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: normal;
   speak: never;
@@ -884,7 +883,7 @@ rs-dotted.threexthreewhite		{	background:url(../assets/gridtile_3x3_white.png)}
 	font-weight: normal;
 	color: #7f8c8d;
 	color: #ffffff;
-	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Montserrat';
 	letter-spacing: 2px;
 }
 .rev-scroll-btn > *:hover,
@@ -946,7 +945,7 @@ rs-dotted.threexthreewhite		{	background:url(../assets/gridtile_3x3_white.png)}
 	line-height: 60px;
 	font-weight: 400;
 	font-style: normal;
-	font-family: Raleway;
+	font-family: 'Montserrat';
 	text-decoration: none;
 	text-align: center;
 	background-color: #000;

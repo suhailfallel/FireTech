@@ -14234,7 +14234,8 @@ p.white {
 }
 .btn-style.btn-white-1 {
   color: #fff;
-  background: var(--primary-color);
+  background: #075e54;
+  font-family: 'Montserrat';
 }
 
 .btn-style.btn-white:hover {
