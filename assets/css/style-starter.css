@@ -41,7 +41,14 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
+.primaryy
+{
+  color: #fff;
+}
+.prime
+{
+  color: #f42a2a;
+}
 article,
 aside,
 figcaption,
@@ -2759,6 +2766,12 @@ fieldset:disabled a.btn {
 .btn-primary {
   color: var(--primary-color);
   background-color:transparent;
+  border-color: #F42A2A;
+  font-size: 14px;
+}
+.btn-primary-1 {
+  color: #fff;
+  background-color: #F42A2A;
   border-color: #F42A2A;
   font-size: 14px;
 }
@@ -14115,6 +14128,14 @@ button,
   align-self: center;
 }
 
+.img-fluid-g{
+  height: 300px;
+  width: 350px;
+}
+
+.img-fluid-g:hover{
+transform: scale(0.9) ;
+}
 button,
 input,
 select,
@@ -14228,13 +14249,23 @@ p.white {
   border-radius: var(--border-radius);
 }
 
+.btn-style-1 {
+  padding: 5px 5px;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  transition: 0.3s ease-in;
+  border-radius: var(--border-radius);
+  float: right;
+}
+
 .btn-style.btn-white {
   color: #fff;
   background: var(--primary-color);
 }
 .btn-style.btn-white-1 {
   color: #fff;
-  background: #075e54;
+  background: #25d366;
   font-family: 'Montserrat';
 }
 
@@ -17793,3 +17824,5 @@ ul.twitter-feed a:hover {
     transition: all 0.3s ease-in-out 0s;
     -webkit-filter: grayscale(0);
 }
+
+
